@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  background: #c3c3c3;
+  display: flex;
+  justify-content: center;
+}
+
+.childDiv {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.childDiv h1 {
+  color: #000;
+  font-size: 2.2rem;
+  padding-top: 2rem;
+  text-transform: capitalize;
+}
+
+input {
+  min-width: 40rem;
+  height: 3.4rem;
+  padding: 2rem 1.2rem;
+  font-size: 1.8rem;
+  line-height: 1.42857143;
+  margin-top: 2rem;
+  color: rgb(58, 57, 57);
+  background-color: #fff;
+  background-image: none;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+}
+
+.icon {
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 10;
+  background-image: none;
+  color: #000;
+  font-size: 2rem;
+}
+.icon:hover {
+  color: rgb(47, 214, 122);
+}
+
+.showItems {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.item {
+  background: #fff;
+  padding: 0.2rem 0.2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.7rem;
+  min-width: 40rem;
+  word-break: break-word;
+  background: rgb(85, 41, 220);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.showItems .item h3 {
+  padding-bottom: 2rem;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.plus {
+  position: relative;
+  top: 0.8rem;
+  right: 3rem;
+}
+
+.btn {
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+.btn:hover {
+  text-decoration: none;
+}
